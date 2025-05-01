@@ -9,5 +9,5 @@ It routes incoming client requests to the appropriate microservice using Eureka.
 The gateway provides:
 - Load-balanced routing using Eureka.
 - Centralized access point to all microservices.
-- Security features like authentication and authorization using keycloak as resource server that issues a jwt token.
+- Security features like authentication and global authorization using keycloak as resource server that issues a jwt token.
 - TODO rate limiting and circuit breaker.
